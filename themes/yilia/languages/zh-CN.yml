@@ -1,19 +1,14 @@
-categories: 分类
-search: 搜索
-tags: 标签
-tagcloud: 标签云
-tweets: 推文
-prev: 上一页
-next: 下一页
-comment: 留言
-archive_a: 归档
-archive_b: 归档：%s
-page: 第 %d 页
-recent_posts: 最新文章
-newer: Newer
-older: Older
-share: Share
-powered_by: Powered by
-rss_feed: RSS Feed
-category: Category
-tag: Tag
+title:
+  archive: 归档
+  category: 分类
+  tag: 标签
+
+menu:
+  home: 首页
+  archives: 归档
+  categories: 分类
+  tags: 标签
+  about: 关于
+  essay: 随笔  # 编辑代码时注意语法规范如缩进、空格等
+  read: 阅读   # Hexo采用yml语法，具体可自行搜索
+  write: 写作

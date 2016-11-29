@@ -1,7 +1,7 @@
 ---
 title: HTML5 autofocus属性
 date: 2016-11-24 21:16:12
-tags:
+tags: html javascript
 ---
 
 ## autofocus属性
