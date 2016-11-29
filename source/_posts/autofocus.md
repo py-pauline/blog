@@ -11,9 +11,9 @@ javascript方法：
 
 	control.focus()
 
-<!--more-->
-
 css方法：
+
+<!--more-->
 
 	<input type="text" autofocus>
 
