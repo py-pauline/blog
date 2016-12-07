@@ -2,7 +2,7 @@
 
 menu:
   主页: /
-  随笔: /categories/随笔     # 博客首页展示文本/访问路径/自定义归档名称
+  随笔: /categories/essay     # 博客首页展示文本/访问路径/自定义归档名称
   #write: /categories/写作     
   #read: /categories/阅读       
   #study: /categories/学习
