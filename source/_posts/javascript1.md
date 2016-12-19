@@ -19,6 +19,9 @@ categories:
 	}else{
 	    document.write("您选了取消");
 	}
+
+ <!-- more -->
+
  在消息对话框中要显示的文本，返回的是布尔值。当点击“确定”按钮时，会返回true，点击“取消”按钮时，返回的是false。
 
 ##### 提示（prompt）
@@ -94,6 +97,8 @@ URL：可选,打开窗口的网址或路径。如果省略了这个参数，或�
 
 对象类型：object（对象类型Object包括：Array、Function、Date...）
 
+![Aaron Swartz](http://oibijaovc.bkt.clouddn.com/js_type.PNG)
+
 ### 转义字符
 
-![Aaron Swartz](blog/source/img/js_esc.PNG)
+![Aaron Swartz](http://oibijaovc.bkt.clouddn.com/js_esc.PNG)
