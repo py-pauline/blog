@@ -4,7 +4,8 @@ date: 2016-12-20 14:10:26
 tags: 屏幕适配
 categories:
 ---
-###页面中比较常用的尺寸
+### 页面中比较常用的尺寸
+
 	/*iphone4,5*/
 	@media all and (min-width:320px) and(max-width: 360px){
 	    body {  font-size: 12px;  }
