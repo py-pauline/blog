@@ -4,21 +4,33 @@ date: 2016-12-20 14:10:26
 tags: 屏幕适配
 categories:
 ---
+<<<<<<< HEAD
 ### 页面中比较常用的尺寸
 
 	/*iphone4,5*/
+=======
+###  页面中比较常用的尺寸
+
+##### iphone4,5(w:320px)
+
+>>>>>>> 51e4112ef3fe7bc2acf55482ce61d479855488d5
 	@media all and (min-width:320px) and(max-width: 360px){
-	    body {  font-size: 12px;  }
+		body {  font-size: 12px;  }
 	}
-	/*iphone6*/
+
+##### iphone6(w:375px)
+
 	@media all and (min-width:360px) and(max-width: 400px){
 	    body {  font-size: 13px;  }
 	}
-	/*iphon6plus*/
+
+##### iphon6plus(w:414px)
+
 	@media all and (min-width:400px) and(max-width: 560px){
 	    body {  font-size: 14px;  }
 	}
-	
+##### ipad(w:768px)	
+
 	@media all and (min-width:560px) and(max-width: 640px){
 	    body {  font-size: 15px;  }
 	}
