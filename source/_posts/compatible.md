@@ -1,19 +1,18 @@
 ---
-title: 媒体查询器做屏幕适配
+title: @media 媒体查询器做屏幕适配
 date: 2016-12-20 14:10:26
 tags: 屏幕适配
 categories:
 ---
-<<<<<<< HEAD
+
 ### 页面中比较常用的尺寸
 
-	/*iphone4,5*/
+iphone4,5
 =======
 ###  页面中比较常用的尺寸
 
 ##### iphone4,5(w:320px)
 
->>>>>>> 51e4112ef3fe7bc2acf55482ce61d479855488d5
 	@media all and (min-width:320px) and(max-width: 360px){
 		body {  font-size: 12px;  }
 	}
