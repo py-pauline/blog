@@ -38,7 +38,7 @@ node.js异步编程的直接体现就是回调。阻塞是按顺序执行的，�
 	// 创建 eventEmitter 对象
 	var eventEmitter = new events.EventEmitter();
 	
-	// 创建事件处理程序
+	// 创建事件处理程序（函数赋给了connectHandler）
 	var connectHandler = function connected() {
 	   console.log('连接成功。');
 	  
@@ -59,8 +59,47 @@ node.js异步编程的直接体现就是回调。阻塞是按顺序执行的，�
 	
 	console.log("程序执行完毕。");
 
-## EventEmitter
-核心是事件触发与事件监听器功能封装
+执行结果
 
+ >$node main.js
+ >
+ >连接成功
+ >
+ >数据接收成功
+ >
+ >程序执行完毕
+
+## EventEmitter
+eventsmokuia只提供了一个对象：events.EventEmitter核心是事件触发与事件监听器功能封装
+
+	var events = require('events'); 
+	var emitter = new events.EventEmitter(); 
+	emitter.on('someEvent', function(arg1, arg2) { 
+		console.log('listener1', arg1,arg2); 
+	}); 
+	emitter.on('someEvent', function(arg1, arg2) { 
+		console.log('listener2', arg1,arg2); 
+	}); 
+	emitter.emit('someEvent', 'arg1参数','arg2参数'); 
+>node event.js
+>
+>listener1 arg1 参数 arg2 参数 
+>
+>listener2 arg1 参数 arg2 参数
+
+### EventEmitter提供了多个属性
+* on函数用于绑定事件函数
+
+
+	>// 语法：on(event,listener)
+	server.on('connection',function(stream){
+		console.log('someone connection');
+	})
+	
+* emit属性用于触发一个事件  [ >>更多属性](http://www.runoob.com/nodejs/nodejs-event.html)
+
+
+	>按参数的顺序执行每个监听器，如果事件有注册监听返回 true，否则返回 false。
+	//语法：emit(event, [arg1], [arg2], [...])
 ## Buffer（缓冲区）
 ## Stream（流）
