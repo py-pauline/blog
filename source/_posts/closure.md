@@ -83,7 +83,40 @@ ES6 引入了一种新的原始数据类型 Symbol，表示独一无二的值。
 	var someFn = testFn();
 	someFn(20); // 30
 # 动态作用域和静态作用域是什么、伪代码、call、
+>补充
+##### 三元运算符
+语法：test ? expression1 : expression2
+
+test:任何boolean表达式
+
+express1：true，返回表达式，可能是逗号表达式
+
+express2:false,返回表达式。可以使用逗号表达式链接多个表达式。
+
+
+例如：
+
+	function foo(x){
+		return(x%2 != 0 ? 'yes':'no') 
+	}
+	console.log(foo(2));//no
+
+#### i++ 与 ++i
+* i++ 返回原来的值，++i 返回加1后的值。
+* i++ 不能作为左值，而++i 可以。
+
+		function Foo(){
+		     var i=0;
+		     return function(){
+		         console.log(i++);//先打印再执行
+		         console.log(++i);//先执行再打印
+		     }
+		}
+		var f1=Foo();
+		f1();// 0 2
 
 #### 闭包
 
 >闭包是代码块和创建该代码块的上下文数据的结合
+
+
