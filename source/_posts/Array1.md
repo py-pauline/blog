@@ -123,6 +123,33 @@ end：下标，第二个数必须大于第一个参数。
 
 ##### forEach
 
+>三个参数：（遍历数组的内容），（对应的数组索引），（数组本身）
+		
+		[].forEach(function(value, index, array) {
+		    // ...
+		});
+
+>对比jQuery中$.each方法
+
+		$.each([], function(index, value, array) {
+		    // ...
+		});
+
+###### 第一个参数和第二个参数正好相反
+
+
+
+	var arr = new Array('tony','lily','daming','jane');
+	arr.forEach(console.log)
+
+终端返回：
+	
+	tony 0 [ 'tony', 'lily', 'daming', 'jane' ]
+	lily 1 [ 'tony', 'lily', 'daming', 'jane' ]
+	daming 2 [ 'tony', 'lily', 'daming', 'jane' ]
+	jane 3 [ 'tony', 'lily', 'daming', 'jane' ]
+
+
 
 
 
