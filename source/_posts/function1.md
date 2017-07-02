@@ -14,6 +14,7 @@ categories:
 * 在进入上下文阶段创建
 * 影响变量对象
 * 以下面的方式声明
+
 		
 		//1）直接在全局上下文中申明
 		exampleFunc();
@@ -33,7 +34,8 @@ categories:
 * 有可选的名称
 * 不会影响变量对象
 * 在代码执行阶段创建
-	
+ 
+
 		//1)赋值申明
 		var foo = function(){
 		
@@ -54,18 +56,20 @@ categories:
 		 
 		// 逗号也只能操作表达式
 		1, function baz() {};
+
 >逗号操作符的说明
->
-	// 注意是1,后面的声明
-	1, function () {
-	  alert('anonymous function is called');
-	}();
+
+	
+		// 注意是1,后面的声明
+		1, function () {
+		  alert('anonymous function is called');
+		}();
 	 
-	// 或者这个
-	!function () {
-	  alert('ECMAScript');
-	}();
- 
+		// 或者这个
+		!function () {
+		  alert('ECMAScript');
+		}();
+	 
 >我有疑问,为什么是匿名函数
 
 		function foo(callback) {

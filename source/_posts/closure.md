@@ -63,9 +63,11 @@ ES6 引入了一种新的原始数据类型 Symbol，表示独一无二的值。
 
 * 自复制函数（以自己为返回值的元素）
 
+
 		 (function selfReplicative() {
 		  return selfReplicative;
 		})();
+
 
 >自由变量是指在函数中使用的，但既不是函数参数也不是函数的局部变量（对于innnerFn函数来讲，localVar是自由变量）
 
@@ -104,6 +106,7 @@ express2:false,返回表达式。可以使用逗号表达式链接多个表达�
 #### i++ 与 ++i
 * i++ 返回原来的值，++i 返回加1后的值。
 * i++ 不能作为左值，而++i 可以。
+
 
 		function Foo(){
 		     var i=0;
