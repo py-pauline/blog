@@ -1,7 +1,7 @@
 ---
-title: 关于JavaScript的疑难杂症
+title: 深入理解JavaScript系列：数组（array）
 date: 2017-06-25 23:10:57
-tags:
+tags: javascript
 categories:
 ---
 ##### for……in声明
@@ -14,6 +14,9 @@ categories:
 		console.log(x); // 0 1 2
 		console.log(arr[x]); //tony tom lily
 	}
+
+<!-- more -->
+
 
 ##### sort()排序：改变原数组
 
@@ -56,9 +59,10 @@ categories:
 	var result = arr.shift();
 	console.log(result); //lily
 
-##### delete
+##### delete 删除数组中指定某一个元素，长度不变，删除项置为undefined
+
 	var array = [1, 2, 3];
-	delete array[1]; // 移除 2
+	delete array[1]; //  2  移除下标为1
 	console.log(array); // "1,,3"
 	
 	console.log(array.length); // but the length is still 3
@@ -128,6 +132,7 @@ end：下标，第二个数必须大于第一个参数。
 ##### valueOf() 返回valueOf的原始值
 
 <font color='#ff0000' size='5'>ES5中新增的Array方法</font>
+
 [点击查看原文](http://www.zhangxinxu.com/wordpress/2013/04/es5%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/#foreach)
 
 ##### forEach（）语法： array.forEach(callback,[ thisObject])

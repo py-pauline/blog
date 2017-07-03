@@ -1,10 +1,10 @@
 ---
-title: javascript学习笔记（一）
+title: 认识javascript
 date: 2016-12-13 20:51:53
 tags: javascript
 categories:
 ---
-### 弹出框
+## 弹出框介绍
 
 ##### 警告框（alert）
 
