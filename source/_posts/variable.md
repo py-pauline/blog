@@ -1,7 +1,7 @@
 ---
 title: 深入理解JavaScript系列：变量对象（Variable Object）
 date: 2017-07-03 10:31:18
-tags: javascript
+tags: JavaScript
 categories:
 ---
 
