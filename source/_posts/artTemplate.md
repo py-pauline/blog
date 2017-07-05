@@ -183,6 +183,26 @@ art-template采用作用域预声明的技术来优化模板渲染速度。
 
 		<%= $imports.dateFormat($imports.timestamp(date), 'yyyy-MM-dd hh:mm:ss') %>
 
-## 调试
+## 调试 template.defaults.debug
+
+art-template 内建调试器，能够捕获到语法与运行错误，并且支持自定义的语法。在 NodeJS 中调试模式会根据环境变量自动开启：process.env.NODE_ENV !== 'production'
+
+>设置 template.defaults.debug=true 后，等同于：
 
 
+		{
+		    "cache": false,
+		    "minimize": false,
+		    "compileDebug": true
+		}
+
+## 模板变量 
+
+###### 内置变量清单
+
+* $data 传入模板的数据
+* $imports 外部导入的变量以及全局变量
+* print 字符串输出函数
+* include 子模板载入函数
+* extend 模板继承模板导入函数
+* block 模板块声明函数
