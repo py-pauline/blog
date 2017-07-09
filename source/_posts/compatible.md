@@ -1,5 +1,5 @@
 ---
-title: @media 媒体查询器做屏幕适配
+title: 媒体查询器做屏幕适配
 date: 2016-12-20 14:10:26
 tags: 屏幕适配
 categories:

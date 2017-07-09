@@ -4,6 +4,11 @@ date: 2017-06-25 23:10:57
 tags: javascript
 categories:
 ---
+
+js中的数组
+
+<!-- more -->
+
 ##### for……in声明
 
 	var arr = new Array();
@@ -15,8 +20,15 @@ categories:
 		console.log(arr[x]); //tony tom lily
 	}
 
-<!-- more -->
-
+>对象中的for……in
+		
+		Object.prototype.bar = 1;
+		var foo= {moo:2};
+		for(var i in foo){
+			if(foo.hasOwnProperty(i)){
+				console.log(i)//moo
+			}
+		}
 
 ##### sort()排序：改变原数组
 
@@ -69,7 +81,7 @@ categories:
 	
 	array.forEach(console.log); // 弹出的仅仅是1和3
 
-##### unshift（），向数组开头一个或更多元素，并返回新的长度，改变原数组
+##### unshift（），向数组开头添加一个或更多元素，并返回新的长度，改变原数组
 
 	var arr = new Array('lily','tony','daming','jack');
 	
