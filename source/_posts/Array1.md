@@ -9,6 +9,9 @@ js中的数组
 
 <!-- more -->
 
+##### 验证对象是否是数组
+
+
 ##### for……in声明
 
 	var arr = new Array();
