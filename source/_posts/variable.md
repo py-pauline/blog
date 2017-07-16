@@ -7,6 +7,34 @@ categories:
 
 [点击查看原文](http://www.cnblogs.com/TomXu/archive/2012/01/16/2309728.html)
 
+##### 枚举对象用hasOwnProperty过滤原型
+
+方法一：
+
+	var obj = {
+		name:'tony',
+		age:'12'
+	}
+	for(i in obj){
+		if(obj.hasOwnProperty(i)){  //过滤原型链中继承的属性
+			console.log(obj[i]) //tony,12
+		}
+	}
+
+方法二：
+
+	var obj = {
+		name:'tony',
+		age:'12'
+	}
+	var i,
+		hasown = Object.prototype.hasOwnProperty;
+	for(i in obj){
+		if(hasown.call(obj,i)){  //过滤
+			console.log(i) // name age
+		}
+	}
+
 ### 变量与执行上下文的关系
 
 	var a = 1;

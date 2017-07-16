@@ -7,7 +7,20 @@ categories:
 原文链接：http://www.cnblogs.com/TomXu/archive/2012/01/30/2326372.html
 
 #### JavaScript中三种函数类型
-### 函数申明（缩写为FD）
+
+##### 区别函数声明和表达式
+
+	function foo(){} // 声明，因为它是程序的一部分
+	  var bar = function foo(){}; // 表达式，因为它是赋值表达式的一部分
+	
+	  new function bar(){}; // 表达式，因为它是new表达式
+	
+	  (function(){
+	    function bar(){} // 声明，因为它是函数体的一部分
+	  })();
+	(function foo(){})  //表达式，他是表达式的原因是因为括号 ()是一个分组操作符，它的内部只能包含表达式
+
+### 函数声明（缩写为FD）
 
 * 有一个特定的名称
 * 在源码中的位置：要么处于程序级（Program level），要么处于其它函数的主体（FunctionBody）中

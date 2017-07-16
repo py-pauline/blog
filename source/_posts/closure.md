@@ -124,4 +124,25 @@ express2:false,返回表达式。可以使用逗号表达式链接多个表达�
 
 >闭包是代码块和创建该代码块的上下文数据的结合
 
+经典闭包：
 
+		for(var i = 0;i<5;i++){
+			console.log(i); // 0 1 2 3 4 
+			setTimeout(function(){
+				console.log(i)  // 5 5 5 5 5
+			},0)
+		}
+
+
+解决方案：
+
+		for(var i = 0;i<5;i++){
+			console.log(i); // 0 1 2 3 4 
+			(function(i){
+				setTimeout(function(){
+					console.log(i)  // 0 1 2 3 4
+				},0)
+			})(i)
+		}
+		
+		
