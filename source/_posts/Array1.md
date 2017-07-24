@@ -9,7 +9,30 @@ js中的数组
 
 <!-- more -->
 
+
+
 ##### 验证对象是否是数组
+
+##### 数组方法简单分类
+
+>原数组不变，做值的选取处理
+
+* slice（）//返回取到值得数组，原数组不变，选之间
+* 
+
+>改变原数组，不会复制，对原数组直接数组
+
+* sort（）
+* shift() //返回删除的元素；
+* unshift() //返回改变后数组长度
+* delete //返回布尔值，原数组长度不变，删除项变为undefined
+* pop() //返回删除的元素
+* push() //返回改变后数组长度
+* result() //返回倒叙后的数组
+*  
+
+
+
 
 
 ##### for……in声明
@@ -68,11 +91,12 @@ js中的数组
 	console.log(bil.salary) //333
 
 
-#### shift() 删除第一个元素，返回删除的元素
+#### shift() 删除第一个元素，返回删除的元素,原数组改变
 	
 	var arr = new Array('lily','tony','daming','jack');
 	var result = arr.shift();
 	console.log(result); //lily
+	console.log(arr); //['lily','tony','daming','jack']
 
 ##### delete 删除数组中指定某一个元素，长度不变，删除项置为undefined
 
