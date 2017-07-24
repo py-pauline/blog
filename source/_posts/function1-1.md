@@ -48,3 +48,27 @@ jQuery.getScript(url,success(response,status));
 
 ##### javascript
 javascript 语言特性中，有很多方面和我们接触的其他编程语言不太一样，比如说，javascript语言实现继承机制的核心就是<b>prototype</b>，而不是Java语言那样的类式继承。Javascript 解析引擎在读取一个Object的属性的值时，会沿着<b>原型链</b> 向上寻找，如果最终没有找到，则该属性值为 <b>undefined</b> ； 如果最终找到该属性的值，则返回结果。与这个过程不同的是，当javascript解析引擎执行“给一个Object的某个属性赋值”的时候，如果当前Object存在该属性，则改写该属性的值，如果当前的Object本身并不存在该属性，则赋值该属性的值 。
+
+>defer属性：延迟脚本执行，只支持IE浏览器
+
+
+>js基本数据类型（6种原始类型+Object）:String Boolean Number Null Undefined Symbol和Object
+
+>js获取select下拉框的值：
+
+ 			<select id="musicTypes" name="musicTypes" multiple="multiple">
+              <option selected="selected">R&B</option>
+              <option selected="selected">爵士</option>
+              <option>布鲁斯</option>
+              <option>新纪元</option>
+              <option>古典</option>
+              <option>戏剧</option>
+            </select>
+			<script>
+			var obj = document.getElementById('musicTypes');
+			  for(var i = 0;i<obj.options.length;i++){
+			    if (obj.options[i].selected) {
+			      console.log(obj.options[i].value) //R&B 爵士
+			    }
+			  }
+			</script>

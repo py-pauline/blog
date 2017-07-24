@@ -13,12 +13,23 @@ js中的数组
 
 ##### 验证对象是否是数组
 
+	var a=[]; Array.isArray(a); //true;
+	var a={}; Array.isArray(a); //false;
+	var a=function(){}; Array.isArray(a); //false;
+
 ##### 数组方法简单分类
 
 >原数组不变，做值的选取处理
 
 * slice（）//返回取到值得数组，原数组不变，选之间
-* 
+* toString() //返回字符串
+* join（） //拼接处理，不加参数和toString()方法一致
+* forEach() //枚举，直接处理
+* map（） //枚举，可返回处理值
+* filter（） //过滤
+* some() //一些匹配
+* every() //所有匹配
+* indexOf() //返回下标
 
 >改变原数组，不会复制，对原数组直接数组
 
@@ -29,9 +40,13 @@ js中的数组
 * pop() //返回删除的元素
 * push() //返回改变后数组长度
 * result() //返回倒叙后的数组
-*  
+* split（）//返回删除的元素
 
 
+|    name    | age |
+| ---------- | --- |
+| LearnShare |  12 |
+| Mike       |  32 |
 
 
 
@@ -156,6 +171,12 @@ end：下标，第二个数必须大于第一个参数。
 	console.log(arr) //['lily','tonyyy','daming','jack']
 
 ##### toString() 数组转化为字符串，并返回结果，不改变数组，与不加参数的join（）方法同义
+
+	var arr=['fiist','second','three','four']
+	var result = arr.toString();
+	console.log(result) //fiist,second,three,four
+	console.log(arr) //[ 'fiist', 'second', 'three', 'four' ]
+
 ##### pop（）删除末尾元素，返回删除的元素
 
 	var arr = new Array('lily','tony','daming');
@@ -168,7 +189,7 @@ end：下标，第二个数必须大于第一个参数。
 	var result = arr.join();
 	console.log(result); //lily,tony,daming
 
-##### valueOf() 返回valueOf的原始值
+
 
 <font color='#ff0000' size='5'>ES5中新增的Array方法</font>
 
