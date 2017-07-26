@@ -76,7 +76,7 @@ $.post()方法通过 HTTP POST 请求从服务器上请求数据。
 		})
 
 
-补充：
+#### 补充：
 Ajax技术核心就是XMLHttpRequest对象。
 
 Ajax技术的工作原理：可以分成3步
@@ -101,3 +101,28 @@ Ajax技术的工作原理：可以分成3步
           						alert(xhr.responseText);//返回的数据
                                }
                              }
+	
+Promise界面还允许jQuery的Ajax方法，包括$.get()在一个请求上链接多个.done() .fail()和.always()回调，甚至在请求之后分配这些回调已经完成 如果请求已经完成，则回调将立即触发。
+
+	
+
+	var jqxhr = $.get( "example.php" , function () {
+	 	alert( "success" );
+	})
+	 .done( function () {
+	 	alert( "second success" );
+	 })
+
+	 .fail( function () {
+	 	alert( "error" );
+	 })
+
+	 .always( function () {
+	 	alert( "finished" );
+	 });
+	 
+	jqxhr.always( function () {
+	 	alert( "second finished" );
+	});
+	//示例
+	$.get('data.json').done(function (data) {});
