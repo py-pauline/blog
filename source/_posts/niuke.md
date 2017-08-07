@@ -118,3 +118,5 @@ mozilla内核 (firefox,flock等)     -moz
                                                       webkit内核(safari,chrome等)   -webkit
                                                       opera内核(opera浏览器)         -o
                                                       trident内核(ie浏览器)               -ms
+
+##### margin、padding百分比依据父容器宽度，注意是宽度
