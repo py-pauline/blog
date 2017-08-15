@@ -2,7 +2,7 @@
 title: 认识javascript
 date: 2016-12-13 20:51:53
 tags: javascript
-categories:
+categories: programming
 ---
 ## 弹出框介绍
 

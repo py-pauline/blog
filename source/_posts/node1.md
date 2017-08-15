@@ -1,8 +1,8 @@
 ---
 title: node.js学习笔记一（创建第一个应用）
 date: 2017-06-15 20:46:22
-tags:
-categories:
+tags: nodejs
+categories: programming
 ---
 ### 什么是node.js
 node.js是运行在服务器端的JavaScript。Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。

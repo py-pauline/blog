@@ -1,8 +1,8 @@
 ---
 title: node.js学习笔记二（npm使用介绍）
 date: 2017-06-15 11:51:17
-tags:
-categories:
+tags: nodejs
+categories: programming
 ---
 ### 关于npm
 npm是随同NodeJS一起安装的包管理工具，能解决nodejs代码部署的很多问题

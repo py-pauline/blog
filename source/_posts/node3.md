@@ -1,8 +1,8 @@
 ---
 title: node.js学习笔记三（REPL）
 date: 2017-06-18 15:28:17
-tags:
-categories:
+tags: nodejs
+categories: programming
 ---
 ### REPL(交互式解释器)
 * REPL表示一个电脑的环境，类似window系统的终端或Unix/linux shell，可以在终端输出命令，并接收系统的响应。

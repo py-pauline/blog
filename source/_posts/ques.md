@@ -1,8 +1,7 @@
 ---
 title: 前端疑难杂症集锦
 date: 2017-07-06 22:52:12
-tags:
-categories: 
+tags: [javascript,css,html]
 ---
 
 记录各种奇奇怪怪的问题

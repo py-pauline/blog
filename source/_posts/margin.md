@@ -1,8 +1,8 @@
 ---
 title: margin，padding百分比
 date: 2017-08-14 11:35:54
-tags:
-categories:
+tags: css
+categories: programming
 ---
 
 对于前端的html，css自我感觉基础知识掌握的还可以，最近在牛客网网做题，深受打击，html可不能小瞧它呀！这不，稍不注意就踩着坑了。

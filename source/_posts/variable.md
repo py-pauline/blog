@@ -2,7 +2,7 @@
 title: 深入理解JavaScript系列：变量对象（Variable Object）
 date: 2017-07-03 10:31:18
 tags: JavaScript
-categories:
+categories: programming
 ---
 
 [点击查看原文](http://www.cnblogs.com/TomXu/archive/2012/01/16/2309728.html)
@@ -21,6 +21,7 @@ categories:
 		}
 	}
 
+<!-- more -->
 方法二：
 
 	var obj = {

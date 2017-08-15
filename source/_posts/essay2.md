@@ -1,8 +1,8 @@
 ---
 title: 程序猿刘先生
 date: 2017-07-06 09:55:23
-tags:
-categories: essay
+tags: 生活 
+categories: life
 ---
 
 ### 下班点的心灵鸡汤

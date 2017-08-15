@@ -1,8 +1,7 @@
 ---
 title: 默认样式总结
 date: 2016-12-28 15:57:31
-tags: css html 
-categories:
+tags: [css,html]
 ---
 移动ios端有很多默认样式，可在全局样式中添加如下样式：
 ### 移动端

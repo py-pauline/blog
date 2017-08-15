@@ -1,8 +1,8 @@
 ---
 title: ajax增删改查
 date: 2017-06-15 11:45:07
-tags:
-categories:
+tags: javascript
+categories: programming
 ---
 
 ##### $.get()方法
@@ -18,6 +18,8 @@ $.get()方法通过http get请求从服务器上请求数据。
 * 成功：function；回调函数；如果提供了dataType则必需，但可以使用null或jquery.noop作为占位符
 
 * 数据类型：string；从服务器语气的数据类型。默认值：智能识别（xml，json，script，text，html）
+
+<!-- more -->
 
 		$.get({
 			url:url，

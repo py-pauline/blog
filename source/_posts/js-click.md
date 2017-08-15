@@ -1,8 +1,7 @@
 ---
-title: 移动端类似hover事件
+title: 移动端实现类似hover事件
 date: 2016-12-20 11:27:21
-tags:
-categories:
+tags: [javascript,css]
 ---
 
 ### 移动端在点击按钮瞬间

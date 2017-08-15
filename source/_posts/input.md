@@ -1,7 +1,8 @@
 ---
 title: HTML5中input元素的种类
 date: 2016-11-20 22:05:05
-tags: html5 
+tags: html
+categories: programming
 ---
 在html5中，大幅度增加与改良了input元素的种类，对于这些input的种类来说，支持得最多、最全面的是Opera 10浏览器。
 

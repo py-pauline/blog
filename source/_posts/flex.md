@@ -1,8 +1,8 @@
 ---
 title: web自适应笔记
 date: 2017-06-15 11:41:45
-tags:
-categories:
+tags: css
+categories: programming
 ---
 ### web自适应
 开始之前，头部需添加以下meta：

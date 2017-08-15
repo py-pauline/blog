@@ -1,8 +1,8 @@
 ---
 title: node.js学习笔记四
 date: 2017-06-20 10:36:11
-tags:
-categories:
+tags: nodejs
+categories: programming
 ---
 # node.js回调函数、事件循环、EventEmitter、Buffer（缓冲区）、Stream（流）
 ## 回调函数

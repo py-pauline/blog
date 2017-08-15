@@ -2,7 +2,7 @@
 title: 初识对象
 date: 2016-12-17 15:20:49
 tags: javascript
-categories:
+categories: programming
 ---
 ## 简单认识对象
 ##### 创建对象

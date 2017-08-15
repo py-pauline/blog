@@ -1,8 +1,8 @@
 ---
 title: 深入理解JavaScript系列：函数（function）
 date: 2017-06-26 16:56:16
-tags:
-categories:
+tags: javascript 
+categories: javascript
 ---
 原文链接：http://www.cnblogs.com/TomXu/archive/2012/01/30/2326372.html
 
@@ -19,6 +19,8 @@ categories:
 	    function bar(){} // 声明，因为它是函数体的一部分
 	  })();
 	(function foo(){})  //表达式，他是表达式的原因是因为括号 ()是一个分组操作符，它的内部只能包含表达式
+
+<!-- more -->
 
 ### 函数声明（缩写为FD）
 

@@ -1,8 +1,8 @@
 ---
 title: js中const，var，let申明变量的区别
 date: 2017-06-16 15:32:58
-tags:
-categories:
+tags: javascript
+categories: programming 
 ---
 文档参考：[http://www.cnblogs.com/ksl666/](http://www.cnblogs.com/ksl666/)
 

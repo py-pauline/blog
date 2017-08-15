@@ -1,8 +1,8 @@
 ---
 title: input type="radio"自定义样式
 date: 2016-12-21 11:08:57
-tags: css3 div
-categories:
+tags: css
+categories: programming
 ---
 	input[type="radio"] {
 	  display: inline-block;

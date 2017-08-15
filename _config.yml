@@ -3,11 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 彭笨笨不笨
+title: 小彭子的博客
 subtitle: 世界上那些最容易的事情中，拖延时间最不费力。
-description: 两粒种子，一片森林。 
+description: 小彭子 94年妹子一枚 就职于远盟康健 博客记录前端知识学习笔记和平时生活七七八八 
 author: 彭迎
 language: zh-CN
+email: 908954125@qq.com
+keywords: "小彭子的博客,前端学习"
 timezone:
 
 # URL
@@ -43,9 +45,13 @@ highlight:
   auto_detect: false
   tab_replace:
 
-# Category & Tag
+# Category & Tag 
+# 标签：html hexo css 生活 小程序 nodejs javascript 工具 读书 计划 
 default_category: uncategorized
 category_map:
+        前端学习：programming
+        生活：life
+        其他：other
 tag_map:
 
 # Date / Time format
@@ -72,5 +78,5 @@ deploy:
   repo: https://github.com/77ya/77ya.github.io.git
   branch: master
 
-# duoshuo
-duoshuo_shortname: 77ya
+friends:
+  程序猿刘先生: http://liujians.me/

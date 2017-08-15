@@ -1,8 +1,8 @@
 ---
 title: 深入理解JavaScript系列:作用域链（scope chain）
 date: 2017-07-04 21:37:54
-tags: JavaScript
-categories:
+tags: javascript
+categories: javascript
 ---
 
 [

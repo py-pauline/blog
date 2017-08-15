@@ -1,8 +1,8 @@
 ---
 title: hexo常用命令
 date: 2017-06-15 11:35:54
-tags:
-categories:
+tags: hexo
+categories: programming
 ---
 参考来源：[https://segmentfault.com/a/1190000002632530](https://segmentfault.com/a/1190000002632530 "笔记参考")
 ### hexo

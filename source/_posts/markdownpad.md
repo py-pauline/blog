@@ -1,8 +1,8 @@
 ---
 title: markdownPad常用命令
 date: 2017-08-14 11:35:54
-tags:
-categories:
+tags: 工具
+categories: programming
 ---
 
 markdownPad操作说明

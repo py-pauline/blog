@@ -2,20 +2,19 @@
 title: 深入理解JavaScript系列：数组（array）
 date: 2017-06-25 23:10:57
 tags: javascript
-categories:
+categories: programming
 ---
 
 js中的数组
-
-<!-- more -->
-
-
 
 ##### 验证对象是否是数组
 
 	var a=[]; Array.isArray(a); //true;
 	var a={}; Array.isArray(a); //false;
 	var a=function(){}; Array.isArray(a); //false;
+
+
+<!-- more -->
 
 ##### 数组方法简单分类
 
