@@ -2,25 +2,15 @@
 
 menu:
   主页: /
-  随笔: /categories/essay     # 博客首页展示文本/访问路径/自定义归档名称
-  #write: /categories/写作     
-  #read: /categories/阅读       
-  #study: /categories/学习
-  #code: /categories/编程
-
+  前端: /categories/programming     # 博客首页展示文本/访问路径/自定义归档名称
+  随笔: /categories/life  
+  # 其他: /categories/other
 
 # SubNav
 subnav:
   github: "https://github.com/77ya"
   weibo: "http://weibo.com/py908954125/profile?rightmod=1&wvr=6&mod=personinfo"
   mail: "mailto:yingpeng@healthlink.cn"
-  zhihu: "#"
-  #rss: "#"
-  #douban: "#"
-  #facebook: "#"
-  #google: "#"
-  #twitter: "#"
-  #linkedin: "#"
 
 rss: /atom.xml
 
@@ -49,29 +39,49 @@ avatar: /images/face.jpg
 
 #是否开启分享
 share_jia: true
-share_addthis: false
+share_addthis: true
 
-#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
-#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: true
-
-# 如不需要，将该项置为false
-# 比如
-#smart_menu:
-#  friends: false
+#标签：html hexo css 生活 小程序 nodejs javascript 工具 读书 计划 
 
 smart_menu:
   innerArchive: '所有文章'
   tagcloud: '标签'
-  friends: '友链'
+  # friends: '友链'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  程序猿刘先生: http://liujians.me/
 
-aboutme: 22岁<br>女生<br>初入前端领域<br>想把每天过的不一样！
+aboutme: 小彭子 <br> 前端开发 <br> 94年妹子一枚 <br>  博客记录前端知识学习<br>笔记和平时生活七七八八
+
+# 打赏
+# 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
+reward_type: 2
+# 打赏wording
+reward_wording: '谢谢你请我吃糖果'
+# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
+alipay:  /images/alipay.jpg
+# 微信二维码图片地址
+weixin:  /images/wechat.jpg
+
+# 目录
+# 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
+toc: 1
+# 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
+toc_hide_index: true
+# 目录为空时的提示
+toc_empty_wording: '抱歉哟，该目录不存在！'
+
+# 是否有快速回到顶部的按钮
+top: true
+
+#3、畅言
+changyan_appid: false
+changyan_conf: false
+
+# 样式定制 - 一般不需要修改，除非有很强的定制欲望…
+style:
+  # 头像上面的背景颜色
+  header: '#ffaca5'
+  # 右滑板块背景
+  # slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'

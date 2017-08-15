@@ -2,6 +2,7 @@
 title:  牛客网做题知识点总结
 date: 2017-07-12 21:43:32
 tags: [javascript,css,html]
+categories: programming
 ---
 ##### window全局对象
 

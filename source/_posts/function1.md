@@ -1,8 +1,8 @@
 ---
 title: 深入理解JavaScript系列：函数（function）
 date: 2017-06-26 16:56:16
-tags: javascript 
-categories: javascript
+tags: javascript
+categories: programming
 ---
 原文链接：http://www.cnblogs.com/TomXu/archive/2012/01/30/2326372.html
 

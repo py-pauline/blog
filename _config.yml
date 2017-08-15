@@ -77,6 +77,3 @@ deploy:
   type: git
   repo: https://github.com/77ya/77ya.github.io.git
   branch: master
-
-friends:
-  程序猿刘先生: http://liujians.me/

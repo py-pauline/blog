@@ -2,6 +2,7 @@
 title: 前端疑难杂症集锦
 date: 2017-07-06 22:52:12
 tags: [javascript,css,html]
+categories: programming
 ---
 
 记录各种奇奇怪怪的问题

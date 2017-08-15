@@ -2,7 +2,7 @@
 title: 深入理解JavaScript系列：闭包（closures）
 date: 2017-06-27 10:42:00
 tags: javascript
-categories: javascript 
+categories: programming
 ---
 原文链接：http://www.cnblogs.com/TomXu/archive/2012/01/31/2330252.html
 

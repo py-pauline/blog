@@ -1,8 +1,8 @@
 ---
 title:  event对象事件
 date: 2017-07-25 21:43:32
-tags:
-categories:
+tags: javascript
+categories: programming
 ---
 
 Event 对象代表事件的状态，比如事件在其中发生的元素、键盘按键的状态、鼠标的位置、鼠标按钮的状态。
