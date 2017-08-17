@@ -122,3 +122,6 @@ mozilla内核 (firefox,flock等)     -moz
                                                       trident内核(ie浏览器)               -ms
 
 ##### margin、padding百分比依据父容器宽度，注意是宽度
+
+#### DNS ####
+域名系统（英文：Domain Name System，缩写：DNS）是因特网的一项服务。它作为将域名和IP地址相互映射的一个分布式数据库，能够使人更方便地访问互联网。DNS使用TCP和UDP端口53。当前，对于每一级域名长度的限制是63个字符，域名总长度则不能超过253个字符
