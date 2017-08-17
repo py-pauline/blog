@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.3.7"
+    "version": "3.2.2"
   },
   "dependencies": {
     "hexo": "^3.2.2",
@@ -18,6 +18,21 @@
     "hexo-server": "^0.2.0"
   },
   "devDependencies": {
-    "webpack": "^3.5.4"
-  }
+    "webpack": "^3.5.5"
+  },
+  "description": "记录前端学习笔记和生活中的一些趣事",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77ya/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/77ya/blog/issues"
+  },
+  "homepage": "https://github.com/77ya/blog#readme"
 }

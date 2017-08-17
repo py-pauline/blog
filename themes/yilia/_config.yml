@@ -39,7 +39,7 @@ avatar: /images/face.jpg
 
 #是否开启分享
 share_jia: true
-share_addthis: true
+share_addthis: false
 
 #标签：html hexo css 生活 小程序 nodejs javascript 工具 读书 计划 
 
@@ -52,7 +52,7 @@ smart_menu:
 friends:
   程序猿刘先生: http://liujians.me/
 
-aboutme: 小彭子 <br> 前端开发 <br> 94年妹子一枚 <br>  博客记录前端知识学习<br>笔记和平时生活七七八八
+aboutme: 小彭子 <br> 记性不太好的<br>前端开发妹子一枚 <br>  博客记录前端知识学习<br>笔记和平时生活七七八八
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
