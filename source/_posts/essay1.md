@@ -16,7 +16,6 @@ categories: other
 ### 计划
 
 * 一整个星期的早起。
-* 微店搭起框架
 * javascript笔记整理
 * ionic模板整理
 * 完成2017年计划
