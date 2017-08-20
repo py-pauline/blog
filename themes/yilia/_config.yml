@@ -10,7 +10,7 @@ menu:
 subnav:
   github: "https://github.com/77ya"
   weibo: "http://weibo.com/py908954125/profile?rightmod=1&wvr=6&mod=personinfo"
-  mail: "mailto:yingpeng@healthlink.cn"
+  mail: "mailto:908954125@qq.com"
 
 rss: /atom.xml
 
@@ -46,7 +46,7 @@ share_addthis: false
 smart_menu:
   innerArchive: '所有文章'
   tagcloud: '标签'
-  # friends: '友链'
+  friends: '友链'
   aboutme: '关于我'
 
 friends:
