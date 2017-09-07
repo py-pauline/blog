@@ -1,5 +1,5 @@
 ---
-title: ECMAScript 6 入门
+title: ECMAScript 6 申明变量
 date: 2017-08-28 21:27:02
 tags: ES6
 categories: programming
@@ -12,6 +12,7 @@ ES5只有两种申明变量的方法：var命令、function命令
 ES6添加了4种方法：let、const、import、class
 
 <!-- more -->
+
  > 变量申明
 
 #### let和const ####
@@ -95,11 +96,6 @@ for循环特点：设置循环变量的那部分是一个父作用域，而循�
 	console.log(result) //aa
 	console.log(foo); //not define
 
-> 数组
-
-#### 扩展运算符 (...) ####
-
-将一个数组转为用逗号分隔的参数序列。主要用于函数调用
 
 
 

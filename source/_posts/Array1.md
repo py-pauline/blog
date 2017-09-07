@@ -42,13 +42,6 @@ js中的数组
 * split（）//返回删除的元素
 
 
-|    name    | age |
-| ---------- | --- |
-| LearnShare |  12 |
-| Mike       |  32 |
-
-
-
 ##### for……in声明
 
 	var arr = new Array();
@@ -149,7 +142,7 @@ js中的数组
 	var result = arr.reverse();
 	console.log(result); //[ 'jack', 'daming', 'tony', 'lily' ]
 
-##### slice(start,end) 返回新数组，不会修改原数组
+##### slice(start,end) 选取的作用，返回新数组，不会修改原数组
 
 start:必须，第几个开始，若是-3，后面3个。
 
@@ -190,7 +183,7 @@ end：下标，第二个数必须大于第一个参数。
 
 
 
-<font color='#ff0000' size='5'>ES5中新增的Array方法</font>
+<font color='#ff7f50' size='4'>ES5中新增的Array方法</font>
 
 [点击查看原文](http://www.zhangxinxu.com/wordpress/2013/04/es5%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/#foreach)
 
@@ -371,4 +364,44 @@ end：下标，第二个数必须大于第一个参数。
 
 >语法：array.reduce(callback[, initialValue])
 
-后续补充……
+<font color='#ff7f50' size='4'>ES6中新增的Array方法</font>
+
+#### 扩展运算符 ####
+
+是三个点(...),将数组转为用逗号分隔的参数序列。主要用于函数调用
+	
+
+		//基本使用	
+		var test = [1,1,1]
+	  	var arr = ['a','b','c'];
+	  	arr.push(...test);
+	  	console.log(arr);//["a", "b", "c", 1, 1, 1]
+
+		// 函数应用
+    	function add(x,y){
+	  		return x+y;
+	  	}
+	  	var num = [1,2];
+	  	console.log(add(...num)); //3
+
+		//表达式
+		var x =10;
+		const arr = [
+		  ...(x > 0 ? ['a'] : []),
+		  'b',
+		];
+		console.log(arr);//['a','b']
+
+1. 合并数组：[...arr1,...arr2]
+2. 与结构赋值结合，用于生成数组。<font color='#ff7f50'>用做数组赋值只能放在参数最后一位</font>
+
+	    var [first,...rest] = [1,2,3,3,3,3]
+		console.log(first); //1
+		console.log(rest); //[2,3,3,3,3]
+
+3. 字符串转为数组
+
+		var d ='hello';
+		console.log([...d]); // ["h", "e", "l", "l", "o"]
+
+4. 
