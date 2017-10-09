@@ -92,3 +92,7 @@ vue data 的简单操作
 	  }
 
 #### 方法 ####
+
+问题：值绑定复选框逻辑值设置为字符串，失败，
+解决方案：在data数据中传值，不可直接在html写字符串
+  <input type="checkbox" v-model='checkbox1' v-bind:true-value='name' v-bind:false-value='sex'>
