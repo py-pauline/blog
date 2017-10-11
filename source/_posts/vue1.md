@@ -93,12 +93,13 @@ vue data 的简单操作
 
 #### 方法 ####
 
-问题：值绑定复选框逻辑值设置为字符串，失败，
+#### 问题：值绑定复选框逻辑值设置为字符串，失败， ####
 
 解决方案：在data数据中传值，不可直接在html写字符串
   <input type="checkbox" v-model='checkbox1' v-bind:true-value='name' v-bind:false-value='sex'>
 
-es6中export的用法：[参考地址](http://www.php.cn/js-tutorial-357671.html)
+#### es6中export的用法： #### 
+[参考地址](http://www.php.cn/js-tutorial-357671.html)
 
 export用于对外输出本模块（一个文件可以理解成一个模块）变量的接口————对外输出（导出）
 
@@ -161,7 +162,7 @@ demo1.js
 
 demo2.js
 
-	import {str,f} from "demo1" //可以分开两次写，导入的时候带花括号
+	import {str,f} from "./demo1.js" //可以分开两次写，导入的时候带花括号
 
 2、
 
@@ -171,5 +172,16 @@ demo1.js
 
 demo2.js
 
-	import str from "demo1" //导入时没有花括号
+	import str from "./demo1.js" //导入时没有花括号
+ 
+#### 创建局部组件时，只在父组件中可用，父组件是什么？为生效  ####
 
+整个导出的对象是父组件
+	export default {
+		data:'',
+		component:{
+			'test':my-test //标签名+组件名  这个是子组件
+		}
+	}
+
+#### prop怎么传数据 ####
