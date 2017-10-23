@@ -197,3 +197,14 @@ prop：父组件向子组件传数据，prop是支撑的意思，父亲是家里
 
 #### Prop 把一个对象的所有属性作为prop传递  子组件props里应该怎么写 ####
 #### 单项数据刘 定义一个局部变量 如何执行 ####
+
+已解决
+	 data:function(){
+	            return {
+	                door:'数据测试',
+	                counter:1,
+	                name:'小彭子',
+	                age:'18'
+	                //newprop: this.myprop //将传过来的全局变量转为局部变量
+	            }
+	        },
