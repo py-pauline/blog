@@ -77,6 +77,22 @@ $.post()方法通过 HTTP POST 请求从服务器上请求数据。
 			dataType:json
 		})
 
+##### formdata提交表单（文件以流的形式提交）
+var data
+
+	$.ajax({
+			url : "../../clientadvertise/create",
+			type : "post",
+			data : data,
+			dataType : "json",
+			processData : false, // 告诉jQuery不要去处理发送的数据
+			contentType : false, // 告诉jQuery不要去设置Content-Type请求头
+			timeout : dsltyyz.timeout,
+			async : dsltyyz.async,
+			success : function(result) {
+				console.log()
+			}
+		})
 
 #### 补充：
 Ajax技术核心就是XMLHttpRequest对象。
