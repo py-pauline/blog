@@ -29,7 +29,7 @@ categories: programming
 ##### 多个变量对象储存 #####
 
 [**ps：** 对象储存需要用JSON.stringify()方法转为json字符串，取出的时候需要用JSON.parse()
-转为json对象](https://77ya.github.io/2017/10/18/json/)
+转为json对象(sessionStorage,localStorage)](https://77ya.github.io/2017/10/18/json/)
 
 
 	 	var data = {
