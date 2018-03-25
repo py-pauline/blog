@@ -78,7 +78,9 @@ $.post()方法通过 HTTP POST 请求从服务器上请求数据。
 		})
 
 ##### formdata提交表单（文件以流的形式提交）
-var data
+
+	var formdata = new FormData();
+	fordata.append("picture",$("#pic").val());
 
 	$.ajax({
 			url : "../../clientadvertise/create",
@@ -93,6 +95,27 @@ var data
 				console.log()
 			}
 		})
+
+#####  JSONP解决get方式跨域 #####
+
+	$.ajax({  
+	        type : "get",  
+	        url: "此处放跨域url",  
+	        dataType : "jsonp",//数据类型为jsonp    
+	        jsonp: "jsonpCallback",//服务端用于接收callback调用的function名的参数    
+	        success : function(data){  
+	            //回调函数  
+	        },  
+	        error:function(){  
+	        }  
+	    });   
+
+ 等价于
+
+	$.getJSON("此处放跨域url",   
+        function(data){  
+        //回调函数  
+    });      
 
 #### 补充：
 Ajax技术核心就是XMLHttpRequest对象。

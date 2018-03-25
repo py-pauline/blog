@@ -18,9 +18,11 @@ npm是随同NodeJS一起安装的包管理工具，能解决nodejs代码部署�
 ### 常用命令
 
 	npm -v //查看安装版本
+	npm init 创建package.json文件
 	npm install npm -g //升级npm
 	cnpm install npm -g //升级npm（淘宝镜像）
 	npm install <module name>  //如安装node.js web框架模块express； npm install express
+	npm install 重装module里的模块，文件在拷贝时，module里的不copy，运行此命令是安装package.json里记录模块
 	npm install express  //本地安装
 	npm install express -g //全局安装
 	npm list -g //查看所有全局安装的模块
