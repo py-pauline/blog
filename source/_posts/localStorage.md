@@ -17,6 +17,14 @@ categories: programming
 	localStorage.setItem('openid','aaa');
 	localStorage.getItem('openid');//aaa
 
+API
+
+	localStorage.getItem(‘key’,’val’) - 取得 
+	localStorage.setItem(‘key’) - 设置 
+	localStorage.removeItem(‘key’) - 移除 
+	localStorage.key(0) - 取key值 
+	localStorage.clear() - 清空
+
 #### sessionStorage属性 ####
 
 后台登录管理系统，必须从登录页面跳转实现，登录页面存储，后面页面取值。即实现登录功能。有存储重新打开无值。

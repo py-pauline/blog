@@ -51,3 +51,46 @@ title属性的主要功能是为了提示，比如一些链接本身未清楚表
 3xx：3开头的是重定向
 4xx：4开头的是客户端错误
 5xx：5开头的是服务器错误
+
+#### 面向对象编程 ####
+
+面向对象的三大特性：继承，封装，多态
+
+面向对象：
+
+ 	//面向对象
+    //定义人（姓名，性别，年龄）
+    let people = function(name){
+        this.name = name;
+    }
+    //动作
+    people.prototype={
+        eat:function(something){
+            console.log(`${this.name}吃${something}`)
+        }
+    }
+    //创建一个人(new一次People)
+    var pauline = new people('彭彭');
+    pauline.eat("火锅"); //彭彭吃火锅
+    //后续动作
+    pauline.coding=function(){
+        console.log(this.name+'写代码')
+    }
+    pauline.coding();//彭彭写代码
+
+面向过程：
+
+	//面向过程
+    let eat = function(name,something){
+        console.log(`${name}吃${something}`);
+    }
+    eat('彭彭','火锅'); //彭彭吃火锅
+    //后续动作
+    let coding = function(name){
+        console.log(`${name}写代码`);
+    }
+    coding('彭彭')//彭彭写代码
+
+**面向对象更加的灵活，复用性和扩展性更好。面向对象是针对对象（彭彭）来执行某些动作，并且动作可以自定义扩展**
+
+**面向过程是定义很多的动作，来指定谁来执行这个动作**
