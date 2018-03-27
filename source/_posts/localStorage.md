@@ -49,3 +49,4 @@ API
 	    var mydata =  sessionStorage.getItem("mydata");
 	     var result = JSON.parse(mydata)
 	     console.log(result);
+
