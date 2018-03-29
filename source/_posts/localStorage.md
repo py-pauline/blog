@@ -50,3 +50,11 @@ API
 	     var result = JSON.parse(mydata)
 	     console.log(result);
 
+#### cookie和localstorage有什么区别 ####
+
+- cookie数据大小不能超过4k
+- cookie在服务端和客户端之间来回传递
+- cookie可以设置很多属性，max-age，path，expires等
+- localStorage存储持久数据，浏览器关闭后数据不丢失除非主动删除数据
+- localStorage存储的数据容量更大
+
