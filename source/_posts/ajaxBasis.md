@@ -80,7 +80,7 @@ $.post()方法通过 HTTP POST 请求从服务器上请求数据。
 ##### formdata提交表单（文件以流的形式提交）
 
 	var formdata = new FormData();
-	fordata.append("picture",$("#pic").val());
+	formdata.append("showImg",$("#showImg")[0].files[0]);
 
 	$.ajax({
 			url : "../../clientadvertise/create",
