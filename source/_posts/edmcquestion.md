@@ -57,6 +57,7 @@ A:应该是变量重复赋值
 
 - 函数参数的解构
 
+action函数接收一个
 		 actions: {
 		    increment (context) {
 		      context.commit('increment')
