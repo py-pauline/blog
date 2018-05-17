@@ -71,3 +71,11 @@ action函数接收一个
 		}
 
 Q:不明白参数解构方式
+A:对象解构的转换
+
+		const context = {commit:function(){}}
+		const { commit } = { commit:function(){}}
+		commit = function(){}
+		
+		context = {commit};
+		commit('fn')
