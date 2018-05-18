@@ -79,3 +79,15 @@ A:对象解构的转换
 		
 		context = {commit};
 		commit('fn')
+
+- action中多个参数
+
+action中使用参数解构，代码如下
+
+	  getList({commit,dispatch},value) {
+	      //获取
+	        ajax.get('stationMonitor/queryAll')()(res => {
+	          commit('showData',res);
+	        });
+	    
+Q:this.$store.dispatch(type:'getList',{参数}) 如果采用mapActions，直接调用this.getList（），这儿的参数该怎么传呢？、
