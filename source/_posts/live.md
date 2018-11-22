@@ -428,4 +428,7 @@ Object.prototype.toString.call({})
 #### chrome调试代码 ####
 
 linux 系统：ctrl+shift+I或者f12
+
+// 完成更新后 this.props 最新的
+  componentDidUpdate (prevProps) {
 	
