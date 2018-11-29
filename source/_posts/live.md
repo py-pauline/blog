@@ -431,4 +431,10 @@ linux 系统：ctrl+shift+I或者f12
 
 // 完成更新后 this.props 最新的
   componentDidUpdate (prevProps) {
+
+ // 完成更新后 this.props 最新的
+  componentDidUpdate (prevProps) {
+
+#### 对象包含某个字段 ####
+JSON.stringify (itemId).includes (v.anserId))
 	
