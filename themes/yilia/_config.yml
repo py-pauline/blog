@@ -3,7 +3,6 @@
 menu:
   主页: /
   前端: /categories/programming     # 博客首页展示文本/访问路径/自定义归档名称
-  随笔: /categories/life  
   # 其他: /categories/other
 
 # SubNav
