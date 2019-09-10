@@ -49,8 +49,8 @@ smart_menu:
   friends: '友链'
   aboutme: '关于我'
 
-friends:
-  程序猿刘先生: http://liujians.me/
+# friends:
+#   程序猿刘先生: http://liujians.me/
 
 aboutme: 小彭子 <br> 记性不太好的<br>前端开发妹子一枚 <br>  博客记录前端知识学习<br>笔记和平时生活七七八八
 
