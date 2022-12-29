@@ -18,7 +18,7 @@
     "hexo-server": "^0.2.0"
   },
   "devDependencies": {
-    "webpack": "^3.5.5"
+    "webpack": "^5.75.0"
   },
   "description": "记录前端学习笔记和生活中的一些趣事",
   "main": "index.js",
